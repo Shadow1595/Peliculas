@@ -1,3 +1,7 @@
+ body{
+	 background: rgb(51, 50, 50);
+ }
+ 
  .your-class1,
  .your-class2,
  .your-class3{
@@ -6,7 +10,9 @@
     width: 75%; 
  }  
 
- .your-class1 a{
+ .your-class1 a,
+ .your-class2 a,
+ .your-class3 a{
 	width: 250px;
 	height: 300px;
 	display: block;
@@ -16,7 +22,9 @@
 
  }
 
- .your-class1 a:hover{
+ .your-class1 a:hover,
+ .your-class2 a:hover,
+ .your-class3 a:hover{
 		transition: all 3s;
 		background-size: 110%;
 	}
@@ -126,4 +134,8 @@ h1{
  }
 
 
- 
+ @media (max-width: 600px) {
+	 #flecha-izquierda1 {
+		 display: none !important;
+	 }
+ }
