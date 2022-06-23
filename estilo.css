@@ -139,3 +139,29 @@ h1{
 		 display: none !important;
 	 }
  }
+ @media (max-width: 600px) {
+	#flecha-derecha1 {
+		display: none !important;
+	}
+}
+ @media (max-width: 600px) {
+	#flecha-izquierda2 {
+		display: none !important;
+	}
+}
+@media (max-width: 600px) {
+	#flecha-derecha2 {
+		display: none !important;
+	}
+}
+@media (max-width: 600px) {
+	#flecha-izquierda3 {
+		display: none !important;
+	}
+}
+
+@media (max-width: 600px) {
+	#flecha-derecha3 {
+		display: none !important;
+	}
+}

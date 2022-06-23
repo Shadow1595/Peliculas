@@ -101,7 +101,17 @@ $(document).ready(function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       prevArrow: $('#flecha-izquierda2'),
-      nextArrow: $('#flecha-derecha2')
+      nextArrow: $('#flecha-derecha2'),
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+        
 
       
     });
@@ -112,9 +122,16 @@ $(document).ready(function(){
       slidesToShow: 3,
       slidesToScroll: 1,
       prevArrow: $('#flecha-izquierda3'),
-      nextArrow: $('#flecha-derecha3')
+      nextArrow: $('#flecha-derecha3'),
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
     });
-});
   </script>
 </body>
 </html>
